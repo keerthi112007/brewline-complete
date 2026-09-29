@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brewline – Fresh-roasted coffee delivered every two weeks</title>
+  <meta name="description" content="Brewline roasts small-batch coffee to order and ships it within 24 hours. Pick a plan, skip or cancel anytime.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta property="og:title" content="Brewline – Fresh-roasted coffee delivered every two weeks">
+  <meta property="og:description" content="Small-batch coffee roasted to order and shipped within 24 hours. Skip or cancel anytime.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="logo.svg">
+  <meta name="theme-color" content="#1d1f52">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <script>try{document.documentElement.dataset.theme=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light')}catch(e){}</script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <a href="#top" class="logo"><svg class="logo-mark" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="32" fill="#ffb627"/><g transform="rotate(35 32 36)"><ellipse cx="32" cy="36" rx="14" ry="21" fill="#1d1f52"/><path d="M32 15.5C24 28 40 44 32 56.5" stroke="#ffb627" stroke-width="3.6" stroke-linecap="round" fill="none"/></g><path d="M43 9c-3 3 3 5 0 8M50 11c-3 3 3 5 0 8" stroke="#1d1f52" stroke-width="2.4" stroke-linecap="round" fill="none"/></svg>Brewline</a>
+  <button class="theme-btn" id="themeBtn" type="button">Dark</button>
+  <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">Menu</button>
+  <nav id="navLinks" aria-label="Main">
+    <a href="#how">How it works</a>
+    <a href="#features">Why Brewline</a>
+    <a href="#pricing">Plans</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact" class="btn btn-small">Start my plan</a>
+  </nav>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Coffee roasted on Tuesday. At your door by Thursday.</h1>
+      <p class="lead">Brewline roasts small batches to order, so every cup tastes like it came from the roaster next door. Pick a plan, skip a delivery or cancel any time.</p>
+      <div class="hero-actions">
+        <a href="#pricing" class="btn">See plans</a>
+        <a href="#features" class="btn btn-ghost">How it works</a>
+      </div>
+      <p class="hero-note">Free shipping on every plan · 30-day money-back promise</p>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="bag">
+        <div class="bag-top"></div>
+        <div class="bag-label">
+          <strong>Brewline</strong>
+          <span>Araku Valley, Andhra Pradesh</span>
+          <span>Roasted 3 days ago</span>
+        </div>
+      </div>
+      <div class="stamp">Roast-to-order</div>
+    </div>
+  </section>
+
+  <!-- TRUST STRIP -->
+  <section class="trust" aria-label="Our promises">
+    <ul>
+      <li><strong>Roasted to order</strong><span>Dated on every bag</span></li>
+      <li><strong>Free shipping</strong><span>Across India, every plan</span></li>
+      <li><strong>30-day promise</strong><span>Love it or get a refund</span></li>
+      <li><strong>Recyclable bags</strong><span>Free return label</span></li>
+    </ul>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section" id="how">
+    <h2>From farm to cup in three steps</h2>
+    <ol class="steps">
+      <li><h3>Pick a plan</h3><p>Choose Solo, Duo or Office. Tell us how you brew so we grind it right.</p></li>
+      <li><h3>We roast your order</h3><p>Every batch is roasted the week it ships, then sealed with a one-way valve.</p></li>
+      <li><h3>Brew within days</h3><p>Your bag arrives two days after roasting, when flavour is at its best.</p></li>
+    </ol>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="section" id="features">
+    <h2>Built around a better morning</h2>
+    <div class="features">
+      <article>
+        <h3>Roasted after you order</h3>
+        <p>Nothing sits on a shelf. Your beans are roasted in the week they ship and dated on the bag.</p>
+      </article>
+      <article>
+        <h3>Matched to how you brew</h3>
+        <p>Tell us espresso, South Indian filter or French press and we grind to suit.</p>
+      </article>
+      <article>
+        <h3>Pause without a phone call</h3>
+        <p>Skip, delay or cancel from your account in two taps. No fees, no hoops.</p>
+      </article>
+      <article>
+        <h3>Grown in the Ghats</h3>
+        <p>We buy directly from family estates in Coorg, Chikmagalur and Araku Valley, and pay above market rates.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- QUIZ -->
+  <section class="section quiz" id="quiz">
+    <h2>Find your first coffee</h2>
+    <div class="quiz-box">
+      <fieldset><legend>How do you brew?</legend>
+        <label class="pill"><input type="radio" name="brew" value="Espresso"><span>Espresso</span></label>
+        <label class="pill"><input type="radio" name="brew" value="South Indian filter"><span>South Indian filter</span></label>
+        <label class="pill"><input type="radio" name="brew" value="Filter / pour-over"><span>Filter / pour-over</span></label>
+        <label class="pill"><input type="radio" name="brew" value="French press"><span>French press</span></label>
+      </fieldset>
+      <fieldset><legend>What do you like in a cup?</legend>
+        <label class="pill"><input type="radio" name="taste" value="fruity"><span>Bright and fruity</span></label>
+        <label class="pill"><input type="radio" name="taste" value="choc"><span>Chocolatey and rich</span></label>
+        <label class="pill"><input type="radio" name="taste" value="nutty"><span>Nutty and sweet</span></label>
+      </fieldset>
+      <div id="quizResult" aria-live="polite">Answer both questions to see your match.</div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="section pricing" id="pricing">
+    <h2>Choose how much coffee you drink</h2>
+    <div class="toggle" role="group" aria-label="Billing period">
+      <button class="active" data-period="monthly" aria-pressed="true">Pay monthly</button>
+      <button data-period="yearly" aria-pressed="false">Pay yearly <span>save 20%</span></button>
+    </div>
+    <div class="plans">
+      <article class="plan">
+        <h3>Solo</h3>
+        <p class="desc">One bag every two weeks. Good for one daily cup.</p>
+        <p class="price">₹<span data-monthly="599" data-yearly="479">599</span><small>/month</small></p>
+        <ul><li>250g bag, 2 deliveries a month</li><li>Choose from 3 Indian estate origins</li><li>Free shipping across India</li></ul>
+        <a href="#contact" class="btn btn-ghost" data-plan="Solo">Choose Solo</a>
+      </article>
+      <article class="plan featured">
+        <p class="badge">Most popular</p>
+        <h3>Duo</h3>
+        <p class="desc">Two bags every two weeks. Enough for a shared kitchen.</p>
+        <p class="price">₹<span data-monthly="1099" data-yearly="879">1099</span><small>/month</small></p>
+        <ul><li>2 × 250g bags, 2 deliveries a month</li><li>Choose from 5 origins incl. limited monsoon lots</li><li>Free shipping and a free steel filter-coffee tumbler</li></ul>
+        <a href="#contact" class="btn" data-plan="Duo">Choose Duo</a>
+      </article>
+      <article class="plan">
+        <h3>Office</h3>
+        <p class="desc">One kilo every week for teams of 5 to 15.</p>
+        <p class="price">₹<span data-monthly="3299" data-yearly="2639">3299</span><small>/month</small></p>
+        <ul><li>1kg weekly, whole bean or ground</li><li>Dedicated account manager</li><li>Invoiced billing</li></ul>
+        <a href="#contact" class="btn btn-ghost" data-plan="Office">Choose Office</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section" id="reviews">
+    <h2>What subscribers say</h2>
+    <div class="stats">
+      <div><strong>12,400+</strong><span>active subscribers</span></div>
+      <div><strong>4.8/5</strong><span>average rating</span></div>
+      <div><strong>96%</strong><span>renew after month three</span></div>
+    </div>
+    <div class="quotes">
+      <blockquote>“The bag says roasted four days ago. My local café can't say that.”<cite>Priya S., Bengaluru</cite></blockquote>
+      <blockquote>“I travel a lot, and pausing a delivery took ten seconds. That's why I stayed.”<cite>Arjun T., Hyderabad</cite></blockquote>
+      <blockquote>“We switched our 12-person office over and the kitchen has never been busier.”<cite>Meera K., Pune</cite></blockquote>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section faq" id="faq">
+    <h2>Questions, answered</h2>
+    <details><summary>Can I skip or pause a delivery?</summary><p>Yes. Skip one delivery or pause for up to three months from your account. There are no fees.</p></details>
+    <details><summary>How fresh is the coffee?</summary><p>Beans are roasted after you order and shipped within 24 hours. The roast date is printed on every bag.</p></details>
+    <details><summary>What if I don't like a coffee?</summary><p>Email us within 30 days and we'll send a different origin or refund the bag.</p></details>
+    <details><summary>Do you ship internationally?</summary><p>We deliver across India in 2 to 4 days. Shipping is free on every plan.</p></details>
+    <details><summary>Is the packaging recyclable?</summary><p>Bags are fully recyclable through our free return-label programme.</p></details>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <h2>Your first bag ships this week</h2>
+    <p>Order before Monday 9 a.m. and it's roasted on Tuesday.</p>
+    <a href="#contact" class="btn btn-light">Start my plan</a>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div>
+      <h2>Tell us how you brew</h2>
+      <p>Fill this in and we'll email your matched coffee and first delivery date within one business day.</p>
+    </div>
+    <form id="leadForm" novalidate>
+      <input type="hidden" name="coffee">
+      <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+      <label>Full name
+        <input type="text" name="name" autocomplete="name" required>
+        <small class="error"></small>
+      </label>
+      <label>Email
+        <input type="email" name="email" autocomplete="email" required>
+        <small class="error"></small>
+      </label>
+      <label>Plan
+        <select name="plan" id="planSelect" required>
+          <option value="">Select a plan</option>
+          <option>Solo</option><option>Duo</option><option>Office</option>
+        </select>
+        <small class="error"></small>
+      </label>
+      <label>How do you brew?
+        <select name="method">
+          <option>Espresso</option><option>South Indian filter</option><option>Filter / pour-over</option><option>French press</option><option>Not sure yet</option>
+        </select>
+      </label>
+      <button type="submit" class="btn">Send my details</button>
+      <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <div>
+    <span class="logo"><svg class="logo-mark" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="32" fill="#ffb627"/><g transform="rotate(35 32 36)"><ellipse cx="32" cy="36" rx="14" ry="21" fill="#1d1f52"/><path d="M32 15.5C24 28 40 44 32 56.5" stroke="#ffb627" stroke-width="3.6" stroke-linecap="round" fill="none"/></g><path d="M43 9c-3 3 3 5 0 8M50 11c-3 3 3 5 0 8" stroke="#1d1f52" stroke-width="2.4" stroke-linecap="round" fill="none"/></svg>Brewline</span>
+    <p>© 2026 Brewline Coffee Co. All rights reserved.</p>
+  </div>
+  <form id="subForm" class="subscribe" novalidate>
+    <label for="subEmail">Get first dibs on limited roasts</label>
+    <div>
+      <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+      <input type="email" id="subEmail" name="email" placeholder="you@example.com" autocomplete="email" required>
+      <button type="submit" class="btn btn-small">Subscribe</button>
+    </div>
+    <p class="form-status" id="subStatus" role="status" aria-live="polite"></p>
+  </form>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

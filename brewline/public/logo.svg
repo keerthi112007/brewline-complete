@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 64" role="img" aria-label="Brewline">
+  <circle cx="32" cy="32" r="32" fill="#ffb627"/>
+  <g transform="rotate(35 32 36)">
+    <ellipse cx="32" cy="36" rx="14" ry="21" fill="#1d1f52"/>
+    <path d="M32 15.5C24 28 40 44 32 56.5" stroke="#ffb627" stroke-width="3.6" stroke-linecap="round" fill="none"/>
+  </g>
+  <path d="M43 9c-3 3 3 5 0 8M50 11c-3 3 3 5 0 8" stroke="#1d1f52" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+  <text x="80" y="43" font-family="'Bricolage Grotesque', 'Trebuchet MS', Arial, sans-serif" font-weight="800" font-size="36" letter-spacing="-0.5" fill="#1d1f52">Brewline</text>
+  <path d="M82 52h190" stroke="#ffb627" stroke-width="3.5" stroke-linecap="round"/>
+</svg>
